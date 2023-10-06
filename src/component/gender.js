@@ -8,12 +8,12 @@ export default function Gender() {
     e.preventDefault();
     setShow(true)
     var first = document.getElementById('first').value;
-    console.log(first)
+    // console.log(first)
       fetch(`https://api.genderize.io/?name=${first}`)
          .then((response) => response.json())
          .then((data) => {
-            console.log(data.gender);
-            console.log(data.probability)
+            // console.log(data.gender);
+            // console.log(data.probability)
             setPosts(data.gender);
             setProb(data.probability)
          })
