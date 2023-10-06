@@ -59,7 +59,7 @@ export default function Gender() {
     </div>
     <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
   </div> */}
-  <button type="submit" class="text-pink-700 hover:bg-blue-200 hover:text-blue-700 font-bold bg-pink-200 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center " onClick={handleClick} >Submit</button>
+  <button type="submit" class="text-pink-700 hover:bg-pink-300 hover:text-white font-bold bg-pink-200 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center " onClick={handleClick} >Submit</button>
   {show ? (
     <>
   <p className='text-white text-base my-4'>Your Gender is 💙💗: <span className='uppercase font-bold'>{posts}</span> </p>
