@@ -39,25 +39,25 @@ export default function Gender() {
 
       <div >
       <div class="mb-6 ">
-    <label for="first" class="block mb-2 text-sm font-semibold text-gray-900 dark:text-white">Firstname</label>
+    <label for="first" class="block mb-2 text-sm font-semibold text-white">Firstname</label>
     <input type="text" id="first" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-pink-700 dark:focus:border-pink-500 focus:outline-none" placeholder="Write your first name" required />
   </div>  <div class="mb-6">
-    <label for="last" class="block mb-2 text-sm font-semibold text-gray-900 dark:text-white">Lastname</label>
+    <label for="last" class="block mb-2 text-sm font-semibold text-white">Lastname</label>
     <input type="text" id="last" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:placeholder-gray-400 dark:text-pink-700 focus:outline-none dark:focus:border-pink-500" placeholder="Write your last name" required />
   </div>
   {/* <div class="mb-6">
-    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+    <label for="email" class="block mb-2 text-sm font-medium text-white">Your email</label>
     <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required />
   </div> */}
   {/* <div class="mb-6">
-    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
+    <label for="password" class="block mb-2 text-sm font-medium text-white">Your password</label>
     <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
   </div> */}
   {/* <div class="flex items-start mb-6">
     <div class="flex items-center h-5">
       <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300  dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
     </div>
-    <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+    <label for="remember" class="ml-2 text-sm font-medium text-gray-300">Remember me</label>
   </div> */}
   <button type="submit" class="text-pink-700 hover:bg-pink-300 hover:text-white font-bold bg-pink-200 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center " onClick={handleClick} >Identify here</button>
   {show ? (
