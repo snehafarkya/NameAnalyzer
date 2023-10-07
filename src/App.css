@@ -39,3 +39,15 @@
     transform: rotate(360deg);
   }
 }
+
+.name{
+  font-size: 48px;
+  background: -webkit-linear-gradient(#fbfbfa, #a6e0e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold ;
+  font-family:'Times New Roman', Times, serif;
+}
+.bgg{
+  background: -webkit-linear-gradient(#CB218E, #6617CB);  
+}
