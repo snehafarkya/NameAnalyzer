@@ -6,8 +6,11 @@ export default function Gender() {
   const [show, setShow] = useState(false)
   const handleClick  = (e) =>{
     e.preventDefault();
-    setShow(true)
     var first = document.getElementById('first').value;
+    if(first){
+    setShow(true)
+
+    }
     // console.log(first)
       fetch(`https://api.genderize.io/?name=${first}`)
          .then((response) => response.json())
