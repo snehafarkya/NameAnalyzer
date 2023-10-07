@@ -46,7 +46,7 @@ export default function Gender() {
     <input type="text" id="first" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-pink-700 dark:focus:border-pink-500 focus:outline-none font-medium hover:scale-[1.03] transition ease-in-out duration-300 hover:shadow-md" placeholder="Write your first name" required />
   </div>  <div class="mb-6">
     <label for="last" class="block mb-2 text-sm font-semibold text-white">Lastname</label>
-    <input type="text" id="last" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:placeholder-gray-400 dark:text-pink-700 focus:outline-none dark:focus:border-pink-500 font-medium" placeholder="Write your last name" required />
+    <input type="text" id="last" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:placeholder-gray-400 dark:text-pink-700 focus:outline-none dark:focus:border-pink-500 font-medium hover:scale-[1.03] transition ease-in-out duration-300 hover:shadow-md" placeholder="Write your last name" required />
   </div>
   {/* <div class="mb-6">
     <label for="email" class="block mb-2 text-sm font-medium text-white">Your email</label>
