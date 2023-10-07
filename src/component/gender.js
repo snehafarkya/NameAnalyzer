@@ -37,8 +37,8 @@ export default function Gender() {
   //        });
   //  }, []);
   return (
-    <div className=' mx-auto md:w-[400px] my-20 bgg px-4 pb-8 rounded-xl border-4 border-double border-blue-100 hover:shadow-2xl  md:hover:scale-[1.2] hover:scale-[1.09] rotate-0 transition ease-in-out duration-1000'>
-      <h2 className='name pt-4 pb-4'>Name Analyzer</h2>
+    <div className=' mx-auto w-[300px] md:w-[400px] my-20 bgg px-4 pb-8 rounded-xl border-4 border-double border-blue-100 hover:shadow-2xl  md:hover:scale-[1.2] hover:scale-[1.09] rotate-0 transition ease-in-out duration-1000'>
+      <h2 className='name pt-4 pb-4 '>Name Analyzer</h2>
 
       <div >
       <div class="mb-6 ">

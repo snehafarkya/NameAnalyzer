@@ -48,6 +48,12 @@
   font-weight: bold ;
   font-family:'Times New Roman', Times, serif;
 }
+@media screen and (max-width:600px) {
+  .name{
+    font-size:32px;
+  }
+  
+}
 .bgg{
   background: -webkit-linear-gradient(#CB218E, #6617CB);  
 }
