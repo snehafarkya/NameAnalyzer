@@ -31,7 +31,9 @@ function Upload() {
 </div> 
 ):
 <div className="flex justify-center">
-<img src={file} className="h-[200px] rounded-lg mb-6 shadow-xl"/>
+  <a href={file} download={true}>
+    <img src={file} className="h-[200px] rounded-lg mb-6 shadow-xl"/>
+  </a>
 </div>
 }
 
