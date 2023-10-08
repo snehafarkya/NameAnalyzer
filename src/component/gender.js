@@ -41,7 +41,7 @@ export default function Gender() {
   {show ? (
     <>
   <p className='text-white text-base my-4'>Your Gender is 💙💗: <span className='uppercase font-bold'>{posts}</span> </p>
-  <p className='text-white text-base'>The probability of your Gender is: <span className='uppercase font-bold'>{prob}</span></p>
+  <p className='text-white text-base'>The probability of your Gender is: <span className='uppercase font-bold'>{prob * 100}%</span></p>
   </>
   ):null}
 
