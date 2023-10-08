@@ -10,7 +10,8 @@ const promise = databases.createDocument(
     '6522b5ccaf2251170a66',
     '6522b5eca4f169504281',
     ID.unique(),
-    { "title": "Hamlet" }
+    { "firstname": "Sneha" ,
+  "lastname":"Farkya"}
 );
 
 promise.then(function (response) {
