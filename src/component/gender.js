@@ -24,18 +24,6 @@ export default function Gender() {
             console.log(err.message);
          });
   }
-  //  useEffect(() => {
-  //   var first = document.getElementById('first').value;
-  //     fetch(`https://api.genderize.io/?name=${first}`)
-  //        .then((response) => response.json())
-  //        .then((data) => {
-  //           console.log(data);
-  //           setPosts(data);
-  //        })
-  //        .catch((err) => {
-  //           console.log(err.message);
-  //        });
-  //  }, []);
   return (
     <div className=' mx-auto w-[300px] md:w-[400px] my-20 bgg px-4 pb-8 rounded-xl border-4 border-double border-blue-100 hover:shadow-2xl  md:hover:scale-[1.02] focus:scale-[1.07] rotate-0 transition ease-in-out duration-700'>
       <h2 className='name pt-4 pb-4 '>Name Analyzer</h2>
