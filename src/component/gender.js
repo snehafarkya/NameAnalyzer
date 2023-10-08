@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Upload from './Upload';
 
 export default function Gender() {
   const [posts, setPosts] = useState([]);
@@ -27,6 +28,7 @@ export default function Gender() {
   return (
     <div className=' mx-auto w-[300px] md:w-[400px] my-20 bgg px-4 pb-8 rounded-xl border-4 border-double border-blue-100 hover:shadow-2xl  rotate-0 transition ease-in-out duration-700'>
       <h2 className='name pt-4 pb-4 '>Gender Analyzer</h2>
+      <Upload/>
 
       <div >
       <div class="mb-6 ">

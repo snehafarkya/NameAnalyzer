@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Gender from './component/gender';
+import Upload from './component/Upload';
 
 function App() {
   return (
